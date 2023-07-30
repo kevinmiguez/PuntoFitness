@@ -1,0 +1,388 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+.navbar1 {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    padding-inline: 1rem;
+    z-index: 2; 
+}
+body nav{
+    background-color: black;
+   }
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+nav img{
+   height: 130px;
+   display: block;
+   margin: 0%;
+}
+
+.nav-link{
+margin-right: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+margin-left: 30px;
+}
+.background-img{
+    background-image:url(./imagenes/fondo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1;
+
+}
+
+.background-img::before{
+    content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 0, 0, .5);
+   z-index: -1;
+}
+
+
+.logoportada{
+    width: 700px;
+    margin-top: -250px;
+}
+.subtitulo {
+    position:static;
+    text-align: center;
+    margin-top: -180px;
+    font-size: 40px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    color: white;
+}
+.cajas p{
+    padding: 5px;
+}
+.container-md1{
+   background-color: red;
+   text-align: center;
+   width: 400px;
+   height: 600px;
+   margin: 10px;
+}
+.yoga{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.container-md2{
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+}
+.boxeo{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-md3{
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+}
+.personalizado{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-md4{
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+}
+.funcional{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-md5{
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+}
+.montaña{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-md6{
+    background-color: red;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+}
+.baile{
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+        
+.kevin{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    
+}
+.footer1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.objfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos {
+    filter: invert(100%);  
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.contenedor{
+    
+    display: grid;
+    width: 1300px;
+    height: 550px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "caja1 caja1 caja1"
+    "caja2 caja3 caja4"
+    "caja5 caja5 caja5"
+    
+}
+
+.box{
+
+   border: 1px solid red;
+}
+.cajaa{
+    grid-area: caja1;
+    background-color: red;
+    margin: 10px;
+    border: 5px solid black;
+    
+}
+.cajab{
+    grid-area: caja2;
+    background-color: red;
+    margin: 10px;
+}
+.cajac{
+    grid-area: caja3;
+    background-color: red;
+    margin: 10px;
+}
+.cajad{
+    grid-area: caja4;
+    background-color: red;
+    margin: 10px;
+}
+.cajae{
+    grid-area: caja5;
+    background-color: red;
+    margin: 10px;
+
+}
+.contenedor > div{
+    display: grid;
+    place-items: center;
+}
+
+.presentacion{
+    background-color: red;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+.carousel-inner img {
+    width: 90%; 
+    height: 500px; 
+    object-fit: cover;
+    object-position: center;
+    
+}
+.main-content{
+    min-height: calc(100vh - 150px);
+    background-color:white;
+    color: white;
+}
+
+
+.contenedorr{
+    display: grid;
+    background-color:white;
+    width: 1300px;
+    height: 550px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "formulario contact-box"
+    "formulario contact-box";
+
+}
+
+
+.formulario{
+    grid-area: formulario;
+    margin: 10px;
+    color: white;
+    background-color: red;
+}
+.contact-box{
+    grid-area: contact-box;
+    margin: 10px;
+    color: white;
+    background-color: red;
+}
+
+.contenedorr > div{
+    display: grid;
+    place-items: center;
+}
+
+.card-img{
+    width: 300px;
+    padding: 10px;
+}
+.card{
+    margin: 10px;
+    background-color: red;
+    color: white;
+
+}
+
+@media screen  and (max-width: 576px) {
+    
+    .navbar1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar1, .nav-link {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav img {
+        
+        margin-bottom: 20px;
+
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .background-img {
+        padding: 40px;
+    }
+
+    .logoportada {
+        width: 80%;
+        max-width: 300px;
+        margin-top: 0;
+    }
+
+    .subtitulo {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .contenedorr{
+    width: 100%;
+    height: 100vh;
+     grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "formulario"
+    "contact-box";
+    }
+    .contenedor{
+        width: 100%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        "caja4"
+        "caja5"
+    }
+    objfooter {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
