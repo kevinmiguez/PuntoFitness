@@ -1,0 +1,31 @@
+.navbar1 {
+    height: 100px;
+    background-color: $secondary-color;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-inline: 1rem;
+    z-index: 2;
+  }
+  
+  body nav {
+    background-color: $secondary-color;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    height: 130px;
+    display: block;
+    margin: 0;
+  }
+  
+  .nav-link {
+    margin: 20px 30px 30px 30px;
+  }

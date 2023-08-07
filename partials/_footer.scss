@@ -1,0 +1,17 @@
+.footer1 {
+    background-color: $secondary-color;
+    color: white;
+    padding: 20px;
+  }
+  
+  .objfooter {
+    display: flex;
+    justify-content: center;
+  
+    .iconos {
+      filter: invert(100%);
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+    }
+  }

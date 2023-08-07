@@ -1,0 +1,36 @@
+.cajas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+    p {
+      padding: 5px;
+    }
+  }
+  
+  .container-md1,
+  .container-md2,
+  .container-md3,
+  .container-md4,
+  .container-md5,
+  .container-md6 {
+    background-color: $primary-color;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+  }
+  
+  .yoga,
+  .boxeo,
+  .personalizado,
+  .funcional,
+  .montaña,
+  .baile,
+  .kevin {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+  }

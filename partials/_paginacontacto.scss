@@ -1,0 +1,39 @@
+.contenedorr {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "formulario contact-box"
+      "formulario contact-box";
+  }
+  
+  .formulario {
+    grid-area: formulario;
+    margin: 10px;
+    color: white;
+    background-color: $primary-color;
+  }
+  
+  .contact-box {
+    grid-area: contact-box;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: $primary-color;
+  }
+  .contenedorr > div {
+    display: grid;
+    place-items: center;
+  }
+  
+  .card-img {
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .card {
+    margin: 10px;
+    background-color: $primary-color;
+    color: white;
+  }

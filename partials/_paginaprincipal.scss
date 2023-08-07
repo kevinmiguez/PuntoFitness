@@ -1,0 +1,40 @@
+.background-img {
+    background-image: url(/imagenes/fondo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $highlight-color;
+      z-index: -1;
+    }
+  }
+  
+  .logoportada {
+    width: 700px;
+    margin-top: -250px;
+  }
+  
+  .subtitulo {
+    position: static;
+    text-align: center;
+    margin-top: -180px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

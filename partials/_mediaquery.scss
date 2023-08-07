@@ -1,0 +1,61 @@
+@media screen and (max-width: 576px) {
+    .navbar1 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .navbar1,
+    .nav-link {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav img {
+      margin-bottom: 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .background-img {
+      padding: 40px;
+    }
+  
+    .logoportada {
+      width: 80%;
+      max-width: 300px;
+      margin-top: 0;
+    }
+  
+    .subtitulo {
+      font-size: 24px;
+      margin-top: 0;
+    }
+  
+    .contenedorr {
+      padding: 10px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: 
+        "formulario"
+        "contact-box";
+    }
+  
+    .contenedor {
+      width: 100%;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+        "caja1"
+        "caja2"
+        "caja3"
+        "caja4"
+        "caja5";
+    }
+  
+    .objfooter {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
