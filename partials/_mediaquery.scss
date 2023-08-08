@@ -43,7 +43,9 @@
         "formulario";
     }
 
-  
+    .contact-box, .formulario {
+      margin: 10px;
+    }
     .contenedor {
       width: 100%;
       grid-template-columns: 1fr;
