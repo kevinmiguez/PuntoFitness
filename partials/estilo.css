@@ -87,6 +87,14 @@ nav img {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+@keyframes cambioColorFondo {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: rgb(10, 10, 10);
+  }
+}
 .cajas {
   display: flex;
   flex-wrap: wrap;
@@ -109,10 +117,18 @@ nav img {
   width: 400px;
   height: 600px;
   margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+.container-md1:hover,
+.container-md2:hover,
+.container-md3:hover,
+.container-md4:hover,
+.container-md5:hover,
+.container-md6:hover {
+  animation: cambioColorFondo 1s infinite;
 }
 
-.yoga,
-.boxeo,
+.yoga, .boxeo,
 .personalizado,
 .funcional,
 .montaña,
@@ -281,7 +297,7 @@ nav img {
   .contenedorr {
     padding: 10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-areas: "formulario" "contact-box";
   }
   .contenedor {

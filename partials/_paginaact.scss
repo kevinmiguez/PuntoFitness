@@ -1,15 +1,26 @@
+@keyframes cambioColorFondo {
+  0% {
+    background-color: red;
+  }
+  
+  100% {
+    background-color: rgb(10, 10, 10);
+  }
+}
+
 .cajas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     color: white;
+    
   
     p {
       padding: 5px;
     }
   }
-  
+ 
   .container-md1,
   .container-md2,
   .container-md3,
@@ -21,16 +32,23 @@
     width: 400px;
     height: 600px;
     margin: 10px;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+      animation: cambioColorFondo 1s infinite;
+    }
   }
   
-  .yoga,
+  .yoga{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+  }
+
   .boxeo,
   .personalizado,
   .funcional,
   .montaña,
   .baile,
   .kevin {
-    width: 200px;
-    height: 250px;
-    margin: 10px;
+    @extend .yoga;
   }
