@@ -279,10 +279,10 @@ nav img {
     margin-top: 0;
   }
   .contenedorr {
-    width: 50%;
+    width: auto;
     padding: 10px;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: "contact-box" "formulario";
   }
   .contenedor {
