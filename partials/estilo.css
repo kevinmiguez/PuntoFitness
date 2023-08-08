@@ -235,6 +235,10 @@ nav img {
   width: 100%;
   margin: 10px;
   box-sizing: border-box;
+  display: flex; /* Agrega esta línea */
+  flex-direction: column; /* Añade esta línea para que el contenido se apile verticalmente */
+  justify-content: center; /* Agrega esta línea para centrar horizontalmente */
+  align-items: center;
 }
 
 .mapa {
