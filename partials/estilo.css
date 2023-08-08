@@ -207,7 +207,6 @@ nav img {
 
 .contenedorr {
   display: grid;
-  width: auto;
   background-color: white;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -232,17 +231,6 @@ nav img {
 .contenedorr > div {
   display: grid;
   place-items: center;
-}
-
-.card-img {
-  width: 300px;
-  padding: 10px;
-}
-
-.card {
-  margin: 10px;
-  background-color: red;
-  color: white;
 }
 
 .footer1 {
@@ -291,26 +279,11 @@ nav img {
     margin-top: 0;
   }
   .contenedorr {
+    width: 50%;
     padding: 10px;
-    width: auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-template-areas: "contact-box" "formulario";
-  }
-  .formulario {
-    width: auto;
-    grid-area: formulario;
-    margin: 10px;
-    color: white;
-    background-color: red;
-  }
-  .contact-box {
-    width: auto;
-    grid-area: contact-box;
-    margin: 10px;
-    padding: 10px;
-    color: white;
-    background-color: red;
   }
   .contenedor {
     width: 100%;

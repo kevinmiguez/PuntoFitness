@@ -1,6 +1,5 @@
 .contenedorr {
     display: grid;
-    width: auto;
     background-color: white;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -28,13 +27,4 @@
     place-items: center;
   }
   
-  .card-img {
-    width: 300px;
-    padding: 10px;
-  }
   
-  .card {
-    margin: 10px;
-    background-color: $primary-color;
-    color: white;
-  }
