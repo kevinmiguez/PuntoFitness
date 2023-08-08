@@ -215,7 +215,7 @@ nav img {
   background-color: white;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "formulario contact-box" "formulario contact-box";
+  grid-template-areas: "contact-box formulario" "contact-box formulario";
 }
 
 .formulario {
@@ -298,7 +298,7 @@ nav img {
     padding: 10px;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    grid-template-areas: "formulario" "contact-box";
+    grid-template-areas: "contact-box" "formulario";
   }
   .contenedor {
     width: 100%;

@@ -4,8 +4,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-      "formulario contact-box"
-      "formulario contact-box";
+      "contact-box formulario"
+      "contact-box formulario";
   }
   
   .formulario {
