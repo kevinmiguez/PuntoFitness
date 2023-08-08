@@ -298,12 +298,14 @@ nav img {
     grid-template-areas: "contact-box" "formulario";
   }
   .formulario {
+    width: auto;
     grid-area: formulario;
     margin: 10px;
     color: white;
     background-color: red;
   }
   .contact-box {
+    width: auto;
     grid-area: contact-box;
     margin: 10px;
     padding: 10px;
