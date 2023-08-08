@@ -220,10 +220,11 @@ nav img {
   display: grid;
   background-color: red;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "contact-box formulario" "contact-box formulario";
+  overflow: hidden;
 }
 
 .formulario,
